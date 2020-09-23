@@ -1,4 +1,4 @@
-package ru.kpfu.itis.group905.kiyamdinov;
+package java.ru.kpfu.itis.group905.kiyamdinov.utils;
 
 public class Main {
     public static void main(String[] args) {
