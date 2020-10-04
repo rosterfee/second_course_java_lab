@@ -1,1 +1,11 @@
-Main-Class: ru.kpfu.itis.group905.kiyamdinov.app.Downloader
+Main-Class: ru.itis.app.Downloader
+
+
+
+
+
+
+
+
+
+
