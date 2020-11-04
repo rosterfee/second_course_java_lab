@@ -29,6 +29,12 @@ public class UsersRepositoryJdbcImpl implements UsersRepository {
     //language=sql
     private static final String SQL_SELECT_USER_BY_UUID = "select * from account where uuid = ?";
 
+    //language=sql
+    private static final String SQL_SELECT_USER_PASSWORD_BY_LOGIN = "select password from account where login = ?";
+
+    //language=sql
+    private static final String SQL_SELECT_USER_BY_LOGIN = "select * from account where login = ?";
+
     private SimpleJdbcTemplate template;
 
     public UsersRepositoryJdbcImpl(DataSource dataSource) {
@@ -44,6 +50,8 @@ public class UsersRepositoryJdbcImpl implements UsersRepository {
             .password(resultSet.getString("password"))
             .uuid((UUID) resultSet.getObject("uuid"))
                 .build();
+
+    private RowMapper<String> passwordRowMapper = resultSet -> resultSet.getString("password");
 
     @Override
     public List<User> findAllByAge(Integer age) {
@@ -64,6 +72,18 @@ public class UsersRepositoryJdbcImpl implements UsersRepository {
     @Override
     public Optional<User> findByUUID(UUID uuid) {
         User user = template.queryForObject(SQL_SELECT_USER_BY_UUID, userRowMapper, uuid);
+        return Optional.ofNullable(user);
+    }
+
+    @Override
+    public Optional<String> findPasswordByLogin(String login) {
+        String password = template.queryForObject(SQL_SELECT_USER_PASSWORD_BY_LOGIN, passwordRowMapper, login);
+        return Optional.ofNullable(password);
+    }
+
+    @Override
+    public Optional<User> findUserByLogin(String login) {
+        User user = template.queryForObject(SQL_SELECT_USER_BY_LOGIN, userRowMapper, login);
         return Optional.ofNullable(user);
     }
 

@@ -22,5 +22,9 @@ public interface UsersRepository extends CrudRepository<User> {
     Optional<User> findByLoginAndPassword(String login, String password);
 
     Optional<User> findByUUID(UUID uuid);
+
+    Optional<String> findPasswordByLogin(String login);
+
+    Optional<User> findUserByLogin(String login);
 }
 

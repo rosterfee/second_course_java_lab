@@ -34,4 +34,14 @@ public class UsersServiceImpl implements UsersService {
     public Optional<User> getUserByUUID(UUID uuid) {
         return usersRepository.findByUUID(uuid);
     }
+
+    @Override
+    public Optional<String> getUserPasswordByLogin(String login) {
+        return usersRepository.findPasswordByLogin(login);
+    }
+
+    @Override
+    public Optional<User> getUserByLogin(String login) {
+        return usersRepository.findUserByLogin(login);
+    }
 }

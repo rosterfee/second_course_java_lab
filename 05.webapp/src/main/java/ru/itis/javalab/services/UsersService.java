@@ -13,4 +13,8 @@ public interface UsersService {
     Optional<User> getUserByLoginAndPassword(String login, String password);
 
     Optional<User> getUserByUUID(UUID uuid);
+
+    Optional<String> getUserPasswordByLogin(String login);
+
+    Optional<User> getUserByLogin(String login);
 }

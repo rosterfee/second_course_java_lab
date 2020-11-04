@@ -8,6 +8,7 @@ import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.Optional;
 import java.util.UUID;
@@ -28,27 +29,37 @@ public class AuthFilter implements Filter {
         HttpServletRequest req = (HttpServletRequest) servletRequest;
         HttpServletResponse resp = (HttpServletResponse) servletResponse;
 
-        Cookie[] cookies = req.getCookies();
-        Cookie authCookie = null;
-        for (Cookie cookie: cookies) {
-            if (cookie.getName().equals("auth")) {
-                authCookie = cookie;
+        HttpSession session = req.getSession();
+        User user = (User) session.getAttribute("user");
+
+        if (user == null) {
+            Cookie[] cookies = req.getCookies();
+            Cookie authCookie = null;
+            for (Cookie cookie: cookies) {
+                if (cookie.getName().equals("auth")) {
+                    authCookie = cookie;
+                    break;
+                }
+            }
+            if (authCookie != null) {
+
+                UUID uuid = UUID.fromString(authCookie.getValue());
+                Optional<User> optionalUser = usersService.getUserByUUID(uuid);
+
+                if (optionalUser.isPresent()) {
+                    user = optionalUser.get();
+                    session.setAttribute("user", user);
+                }
+
             }
         }
 
-        if (authCookie != null) {
-
-            Optional<User> optionalUser = usersService.getUserByUUID(UUID.fromString(authCookie.getValue()));
-            if (optionalUser.isPresent()) {
-                filterChain.doFilter(req, resp);
-            }
-            else {
-                resp.sendRedirect(req.getContextPath() + "/sign_in");
-            }
-
+        user = (User) session.getAttribute("user");
+        if (user == null) {
+            resp.sendRedirect(req.getContextPath() + "/login");
         }
         else {
-            resp.sendRedirect(req.getContextPath() + "/sign_in");
+            filterChain.doFilter(req, resp);
         }
     }
 
