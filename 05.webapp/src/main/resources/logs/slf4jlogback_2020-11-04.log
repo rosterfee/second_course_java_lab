@@ -79,3 +79,21 @@ java.net.URLClassLoader@182decdb
 15:08:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Fill pool skipped, pool is at sufficient level. 
 15:08:46 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Pool stats (total=2, active=0, idle=2, waiting=0) 
 15:08:46 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Fill pool skipped, pool is at sufficient level. 
+15:09:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Pool stats (total=2, active=0, idle=2, waiting=0) 
+15:09:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Fill pool skipped, pool is at sufficient level. 
+15:09:46 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Pool stats (total=2, active=0, idle=2, waiting=0) 
+15:09:46 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Fill pool skipped, pool is at sufficient level. 
+15:10:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Pool stats (total=2, active=0, idle=2, waiting=0) 
+15:10:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Fill pool skipped, pool is at sufficient level. 
+15:10:46 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Pool stats (total=2, active=0, idle=2, waiting=0) 
+15:10:46 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Fill pool skipped, pool is at sufficient level. 
+15:11:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Pool stats (total=2, active=0, idle=2, waiting=0) 
+15:11:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Fill pool skipped, pool is at sufficient level. 
+15:11:46 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Pool stats (total=2, active=0, idle=2, waiting=0) 
+15:11:46 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Fill pool skipped, pool is at sufficient level. 
+15:12:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Pool stats (total=2, active=0, idle=2, waiting=0) 
+15:12:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Fill pool skipped, pool is at sufficient level. 
+15:12:46 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Pool stats (total=2, active=0, idle=2, waiting=0) 
+15:12:46 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Fill pool skipped, pool is at sufficient level. 
+15:13:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Pool stats (total=2, active=0, idle=2, waiting=0) 
+15:13:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Fill pool skipped, pool is at sufficient level. 
