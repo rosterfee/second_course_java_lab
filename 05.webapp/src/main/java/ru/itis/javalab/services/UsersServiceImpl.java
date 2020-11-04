@@ -1,5 +1,6 @@
 package ru.itis.javalab.services;
 
+import ru.itis.javalab.dto.UserDto;
 import ru.itis.javalab.models.User;
 import ru.itis.javalab.repositories.UsersRepository;
 
@@ -26,22 +27,25 @@ public class UsersServiceImpl implements UsersService {
     }
 
     @Override
-    public Optional<User> getUserByLoginAndPassword(String login, String password) {
-        return usersRepository.findByLoginAndPassword(login, password);
-    }
-
-    @Override
     public Optional<User> getUserByUUID(UUID uuid) {
         return usersRepository.findByUUID(uuid);
     }
 
     @Override
-    public Optional<String> getUserPasswordByLogin(String login) {
-        return usersRepository.findPasswordByLogin(login);
+    public Optional<User> getUserByLogin(String login) {
+        return usersRepository.findUserByLogin(login);
     }
 
     @Override
-    public Optional<User> getUserByLogin(String login) {
-        return usersRepository.findUserByLogin(login);
+    public List<UserDto> getAllUsers(int page, int size) {
+        return UserDto.from(usersRepository.findAll(page, size));
+    }
+
+    @Override
+    public void addUser(UserDto userDto) {
+        usersRepository.save(User.builder()
+                .firstName(userDto.getFirstName())
+                .lastName(userDto.getLastName())
+                    .build());
     }
 }

@@ -5,7 +5,8 @@ import com.zaxxer.hikari.HikariDataSource;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import ru.itis.javalab.repositories.UsersRepository;
-import ru.itis.javalab.repositories.UsersRepositoryJdbcImpl;
+import ru.itis.javalab.repositories.UsersRepositoryJdbcTemplateImpl;
+import ru.itis.javalab.repositories.old.UsersRepositoryJdbcImpl;
 import ru.itis.javalab.services.PasswordEncoderServiceImpl;
 import ru.itis.javalab.services.PasswordEncoderService;
 import ru.itis.javalab.services.UsersService;
@@ -41,7 +42,7 @@ public class AppConfigServletContextListener implements ServletContextListener {
 
         HikariDataSource dataSource = new HikariDataSource(hikariConfig);
 
-        UsersRepository usersRepository = new UsersRepositoryJdbcImpl(dataSource);
+        UsersRepository usersRepository = new UsersRepositoryJdbcTemplateImpl(dataSource);
         UsersService usersService = new UsersServiceImpl(usersRepository);
 
         PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
