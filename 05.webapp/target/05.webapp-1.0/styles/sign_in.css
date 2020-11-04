@@ -1,0 +1,62 @@
+.sign_in_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.sign_in_window {
+    border: 2px solid deeppink;
+    border-radius: 20px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+}
+
+.sign_in_form label {
+    border-radius: 10px;
+    background-color: deeppink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign_in_form input {
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    height: 23px;
+    text-align: center;
+}
+
+.sign_in_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.login_zone {
+    margin-bottom: 15px;
+}
+.password_zone {
+    margin-bottom: 15px;
+}
+
+.sign_in_button {
+    padding: 5px 15px;
+    color: darkblue;
+    font-weight: bold;
+    border: 2px dashed black;
+    border-radius: 7px;
+    background-color: deeppink;
+}
+
+.window_message {
+    color: red;
+    font-size: 10px;
+}
