@@ -1,9 +1,14 @@
 package ru.itis.javalab.repositories;
 
+import javafx.beans.binding.ObjectExpression;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
+import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
+import org.springframework.jdbc.core.namedparam.SqlParameterSource;
+import org.springframework.jdbc.support.GeneratedKeyHolder;
+import org.springframework.jdbc.support.KeyHolder;
 import ru.itis.javalab.models.User;
 
 import javax.sql.DataSource;
@@ -166,6 +171,14 @@ public class UsersRepositoryJdbcTemplateImpl implements UsersRepository {
     public void save(User entity) {
         Map<String, Object> params = getAllUserParamsFrom(entity);
         namedParameterJdbcTemplate.update(SQL_SAVE_USER, params);
+    }
+
+    public Long saveReturningId(User entity) {
+        Map<String, Object> params = getAllUserParamsFrom(entity);
+        SqlParameterSource sqlParameterSource = new MapSqlParameterSource(params);
+        KeyHolder keyHolder = new GeneratedKeyHolder();
+        namedParameterJdbcTemplate.update(SQL_SAVE_USER, sqlParameterSource, keyHolder);
+        return (Long) keyHolder.getKey();
     }
 
     @Override
