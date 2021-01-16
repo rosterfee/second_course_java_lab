@@ -1,0 +1,14 @@
+.profile-table {
+    border: 1px solid deeppink;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+}
+
+.profile-table td {
+    justify-content: center;
+}
+
+.profile-table th {
+    justify-content: center;
+}

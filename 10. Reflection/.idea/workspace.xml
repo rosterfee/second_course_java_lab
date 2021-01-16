@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82bbef83-09c6-4c02-8322-9789a0f4ca8c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../05.webapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/listeners/AppConfigServletContextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/listeners/AppConfigServletContextListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/repositories/UsersRepositoryJdbcTemplateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/repositories/UsersRepositoryJdbcTemplateImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/services/PasswordEncoderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/services/PasswordEncoderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/services/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/services/UsersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/servlets/LogInServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/servlets/LogInServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/servlets/UsersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/servlets/UsersServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05.webapp/src/main/resources/logs/slf4jlogback_2020-11-04.log" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/src/main/resources/logs/slf4jlogback_2020-11-04.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/src/main/webapp/WEB-INF/properties/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/src/main/resources/properties/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/logs/slf4jlogback_2020-11-04.log" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/logs/slf4jlogback_2020-11-04.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/listeners/AppConfigServletContextListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/repositories/UsersRepositoryJdbcTemplateImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/repositories/UsersRepositoryJdbcTemplateImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/services/PasswordEncoderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/services/PasswordEncoderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/services/UsersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/services/UsersServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/servlets/LogInServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/servlets/LogInServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/servlets/UsersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/servlets/UsersServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/target/classes/logs/slf4jlogback_2020-11-04.log" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/classes/logs/slf4jlogback_2020-11-04.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/listeners/AppConfigServletContextListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/repositories/UsersRepositoryJdbcTemplateImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/repositories/UsersRepositoryJdbcTemplateImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/services/PasswordEncoderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/services/PasswordEncoderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/services/UsersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/services/UsersServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/servlets/LogInServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/servlets/LogInServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/servlets/UsersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/servlets/UsersServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +122,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../05.webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -114,53 +138,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="10.Reflection" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="10.Reflection" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -209,6 +186,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604686164219</updated>
       <workItem from="1604686171178" duration="16982000" />
+      <workItem from="1604757182014" duration="12000" />
+      <workItem from="1605643383168" duration="14000" />
     </task>
     <servers />
   </component>
@@ -228,10 +207,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1604691624811" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1604687071575">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1604757191469">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604687071575" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604757191469" />
     <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1604706396984">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -264,6 +243,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="357" y="65" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1604702872317" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1604757181595">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1604757181595" />
     <state x="209" y="24" key="spring file set editor" timestamp="1604691749632">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

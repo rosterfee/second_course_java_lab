@@ -1,5 +1,7 @@
 package ru.itis.javalab.services;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import ru.itis.javalab.dto.UserDto;
 import ru.itis.javalab.models.User;
 import ru.itis.javalab.repositories.UsersRepository;
@@ -7,9 +9,10 @@ import ru.itis.javalab.repositories.UsersRepository;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
-
+@Service
 public class UsersServiceImpl implements UsersService {
 
+    @Autowired
     private UsersRepository usersRepository;
 
     public UsersServiceImpl(UsersRepository usersRepository) {

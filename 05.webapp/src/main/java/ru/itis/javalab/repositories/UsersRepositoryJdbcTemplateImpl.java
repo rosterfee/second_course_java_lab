@@ -1,6 +1,8 @@
 package ru.itis.javalab.repositories;
 
 import javafx.beans.binding.ObjectExpression;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
@@ -9,6 +11,7 @@ import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.jdbc.core.namedparam.SqlParameterSource;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
+import org.springframework.stereotype.Repository;
 import ru.itis.javalab.models.User;
 
 import javax.sql.DataSource;
@@ -21,6 +24,7 @@ import java.util.*;
  * @author Sidikov Marsel (First Software Engineering Platform)
  * @version v1.0
  */
+@Repository
 public class UsersRepositoryJdbcTemplateImpl implements UsersRepository {
 
     private JdbcTemplate jdbcTemplate;
@@ -82,8 +86,7 @@ public class UsersRepositoryJdbcTemplateImpl implements UsersRepository {
 
 
 
-
-
+    @Autowired
     public UsersRepositoryJdbcTemplateImpl(DataSource dataSource) {
         this.jdbcTemplate = new JdbcTemplate(dataSource);
         this.namedParameterJdbcTemplate = new NamedParameterJdbcTemplate(dataSource);

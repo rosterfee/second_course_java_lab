@@ -1,5 +1,8 @@
 package ru.itis.javalab.filters;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import ru.itis.javalab.config.AppConfiguration;
 import ru.itis.javalab.models.User;
 import ru.itis.javalab.services.UsersService;
 
@@ -20,7 +23,8 @@ public class AuthFilter implements Filter {
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
-        usersService = (UsersService) filterConfig.getServletContext().getAttribute("usersService");
+        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfiguration.class);
+        usersService = applicationContext.getBean(UsersService.class);
     }
 
     @Override

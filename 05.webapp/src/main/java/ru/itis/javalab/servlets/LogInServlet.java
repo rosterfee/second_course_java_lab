@@ -1,5 +1,9 @@
 package ru.itis.javalab.servlets;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import ru.itis.javalab.config.AppConfiguration;
 import ru.itis.javalab.models.User;
 import ru.itis.javalab.services.PasswordEncoderService;
 import ru.itis.javalab.services.UsersService;
@@ -20,14 +24,14 @@ public class LogInServlet extends HttpServlet {
 
     @Override
     public void init(ServletConfig config) throws ServletException {
-        ServletContext servletContext = config.getServletContext();
-        usersService = (UsersService) servletContext.getAttribute("usersService");
-        passwordEncoderService = (PasswordEncoderService) servletContext.getAttribute("passwordEncoderService");
+        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfiguration.class);
+        usersService = applicationContext.getBean(UsersService.class);
+        passwordEncoderService = applicationContext.getBean(PasswordEncoderService.class);
     }
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("pages/login.html").forward(req, resp);
+        req.getRequestDispatcher("pages/login.ftl").forward(req, resp);
     }
 
     @Override
@@ -56,11 +60,11 @@ public class LogInServlet extends HttpServlet {
 
             }
             else {
-                req.getRequestDispatcher("pages/login.html").forward(req, resp);
+                req.getRequestDispatcher("pages/login.ftl").forward(req, resp);
             }
         }
         else {
-            req.getRequestDispatcher("pages/login.html").forward(req, resp);
+            req.getRequestDispatcher("pages/login.ftl").forward(req, resp);
         }
     }
 }

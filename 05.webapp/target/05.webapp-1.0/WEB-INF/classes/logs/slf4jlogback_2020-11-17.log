@@ -1,0 +1,1713 @@
+22:19:12 INFO  ru.itis.javalab.loggers.Logger - / 
+22:19:12 INFO  ru.itis.javalab.loggers.Logger - / 
+22:19:12 INFO  ru.itis.javalab.loggers.Logger - / 
+22:19:12 INFO  ru.itis.javalab.loggers.Logger - /favicon.ico 
+22:19:21 INFO  ru.itis.javalab.loggers.Logger - /users 
+22:34:46 DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4180cce1 
+22:34:46 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+22:34:46 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\repositories\UsersRepositoryJdbcTemplateImpl.class] 
+22:34:46 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\PasswordEncoderServiceImpl.class] 
+22:34:46 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\UsersServiceImpl.class] 
+22:34:46 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor' 
+22:34:46 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory' 
+22:34:46 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+22:34:46 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+22:34:46 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfiguration' 
+22:34:46 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersRepositoryJdbcTemplateImpl' 
+22:34:46 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource' 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@182decdb
+ 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration: 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>} 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver" 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{} 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javaLab 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................2 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................2 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked> 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1" 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres" 
+22:34:46 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000 
+22:34:46 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+22:34:47 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to create/setup connection: ВАЖНО: база данных "javaLab" не существует (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf) 
+22:34:47 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Cannot acquire connection from data source 
+org.postgresql.util.PSQLException: ВАЖНО: база данных "javaLab" не существует (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2665)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:147)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:273)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at ru.itis.javalab.config.AppConfiguration.dataSource(AppConfiguration.java:38)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$2a390d6d.CGLIB$dataSource$0(<generated>)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$2a390d6d$$FastClassBySpringCGLIB$$676e91a0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$2a390d6d.dataSource(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:483)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:89)
+	at ru.itis.javalab.servlets.UsersServlet.init(UsersServlet.java:35)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1134)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1089)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:761)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:135)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+22:34:48 ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization. 
+org.postgresql.util.PSQLException: ВАЖНО: база данных "javaLab" не существует (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2665)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:147)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:273)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at ru.itis.javalab.config.AppConfiguration.dataSource(AppConfiguration.java:38)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$2a390d6d.CGLIB$dataSource$0(<generated>)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$2a390d6d$$FastClassBySpringCGLIB$$676e91a0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$2a390d6d.dataSource(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:483)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:89)
+	at ru.itis.javalab.servlets.UsersServlet.init(UsersServlet.java:35)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1134)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1089)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:761)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:135)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+22:34:48 WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usersRepositoryJdbcTemplateImpl' defined in file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\repositories\UsersRepositoryJdbcTemplateImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in ru.itis.javalab.config.AppConfiguration: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: ВАЖНО: база данных "javaLab" не существует (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf) 
+22:48:01 DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2fc030eb 
+22:48:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+22:48:02 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\repositories\UsersRepositoryJdbcTemplateImpl.class] 
+22:48:02 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\PasswordEncoderServiceImpl.class] 
+22:48:02 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\UsersServiceImpl.class] 
+22:48:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor' 
+22:48:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory' 
+22:48:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+22:48:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+22:48:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfiguration' 
+22:48:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersRepositoryJdbcTemplateImpl' 
+22:48:02 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource' 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@182decdb
+ 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-2 - configuration: 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>} 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver" 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{} 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javaLab 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................2 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................2 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked> 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-2" 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres" 
+22:48:02 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000 
+22:48:02 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting... 
+22:48:02 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Failed to create/setup connection: ВАЖНО: база данных "javaLab" не существует (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf) 
+22:48:02 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Cannot acquire connection from data source 
+org.postgresql.util.PSQLException: ВАЖНО: база данных "javaLab" не существует (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2665)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:147)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:273)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at ru.itis.javalab.config.AppConfiguration.dataSource(AppConfiguration.java:38)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$2d2ec77c.CGLIB$dataSource$0(<generated>)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$2d2ec77c$$FastClassBySpringCGLIB$$6eefb0e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$2d2ec77c.dataSource(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:483)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:89)
+	at ru.itis.javalab.servlets.UsersServlet.init(UsersServlet.java:35)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1134)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1089)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:761)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:135)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+22:48:03 ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Exception during pool initialization. 
+org.postgresql.util.PSQLException: ВАЖНО: база данных "javaLab" не существует (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2665)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:147)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:273)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at ru.itis.javalab.config.AppConfiguration.dataSource(AppConfiguration.java:38)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$2d2ec77c.CGLIB$dataSource$0(<generated>)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$2d2ec77c$$FastClassBySpringCGLIB$$6eefb0e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$2d2ec77c.dataSource(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:483)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:89)
+	at ru.itis.javalab.servlets.UsersServlet.init(UsersServlet.java:35)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1134)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1089)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:761)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:135)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+22:48:03 WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usersRepositoryJdbcTemplateImpl' defined in file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\repositories\UsersRepositoryJdbcTemplateImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in ru.itis.javalab.config.AppConfiguration: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: ВАЖНО: база данных "javaLab" не существует (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf) 
+23:04:23 DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@d72c70f 
+23:04:23 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+23:04:23 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\repositories\UsersRepositoryJdbcTemplateImpl.class] 
+23:04:23 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\PasswordEncoderServiceImpl.class] 
+23:04:23 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\UsersServiceImpl.class] 
+23:04:23 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor' 
+23:04:23 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory' 
+23:04:23 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+23:04:23 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+23:04:23 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfiguration' 
+23:04:23 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersRepositoryJdbcTemplateImpl' 
+23:04:23 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource' 
+23:04:23 WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usersRepositoryJdbcTemplateImpl' defined in file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\repositories\UsersRepositoryJdbcTemplateImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in ru.itis.javalab.config.AppConfiguration: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: java.io.FileNotFoundException: C:\Users\dakal\programming\IdeaProjects\second_course_java_lab\05.webapp\src\main\webapp\WEB-INF\properties\db.properties (Системе не удается найти указанный путь) 
+23:10:20 DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@28c7832f 
+23:10:21 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+23:10:21 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\repositories\UsersRepositoryJdbcTemplateImpl.class] 
+23:10:21 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\PasswordEncoderServiceImpl.class] 
+23:10:21 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\UsersServiceImpl.class] 
+23:10:21 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor' 
+23:10:21 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory' 
+23:10:21 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+23:10:21 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+23:10:21 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfiguration' 
+23:10:21 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersRepositoryJdbcTemplateImpl' 
+23:10:21 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource' 
+23:10:21 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.url' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:10:21 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.driver.classname' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@182decdb
+ 
+23:10:21 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.username' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:10:21 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.password' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:10:21 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.hikari.max-pool-size' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-3 - configuration: 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>} 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver" 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{} 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javaLab 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................2 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................2 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked> 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-3" 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres" 
+23:10:21 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000 
+23:10:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting... 
+23:10:21 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-3 - Failed to create/setup connection: ВАЖНО: база данных "javaLab" не существует (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf) 
+23:10:21 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Cannot acquire connection from data source 
+org.postgresql.util.PSQLException: ВАЖНО: база данных "javaLab" не существует (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2665)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:147)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:273)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at ru.itis.javalab.config.AppConfiguration.dataSource(AppConfiguration.java:37)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$9bb845f8.CGLIB$dataSource$0(<generated>)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$9bb845f8$$FastClassBySpringCGLIB$$c3a3db5b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$9bb845f8.dataSource(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:483)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:89)
+	at ru.itis.javalab.servlets.UsersServlet.init(UsersServlet.java:35)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1134)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1089)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:761)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:135)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+23:10:22 ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Exception during pool initialization. 
+org.postgresql.util.PSQLException: ВАЖНО: база данных "javaLab" не существует (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2665)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:147)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:273)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at ru.itis.javalab.config.AppConfiguration.dataSource(AppConfiguration.java:37)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$9bb845f8.CGLIB$dataSource$0(<generated>)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$9bb845f8$$FastClassBySpringCGLIB$$c3a3db5b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$9bb845f8.dataSource(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:483)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:89)
+	at ru.itis.javalab.servlets.UsersServlet.init(UsersServlet.java:35)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1134)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1089)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:761)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:135)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+23:10:22 WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usersRepositoryJdbcTemplateImpl' defined in file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\repositories\UsersRepositoryJdbcTemplateImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in ru.itis.javalab.config.AppConfiguration: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: ВАЖНО: база данных "javaLab" не существует (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf) 
+23:13:06 DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3026b35a 
+23:13:06 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+23:13:06 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\repositories\UsersRepositoryJdbcTemplateImpl.class] 
+23:13:06 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\PasswordEncoderServiceImpl.class] 
+23:13:06 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\UsersServiceImpl.class] 
+23:13:06 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor' 
+23:13:06 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory' 
+23:13:06 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+23:13:06 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+23:13:06 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfiguration' 
+23:13:06 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersRepositoryJdbcTemplateImpl' 
+23:13:06 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource' 
+23:13:06 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.url' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:13:06 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.driver.classname' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@182decdb
+ 
+23:13:06 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.username' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:13:06 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.password' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:13:06 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.hikari.max-pool-size' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-4 - configuration: 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>} 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver" 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{} 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javaLab 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked> 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-4" 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres" 
+23:13:06 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000 
+23:13:06 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting... 
+23:13:06 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-4 - Failed to create/setup connection: ВАЖНО: база данных "javaLab" не существует (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf) 
+23:13:06 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Cannot acquire connection from data source 
+org.postgresql.util.PSQLException: ВАЖНО: база данных "javaLab" не существует (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2665)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:147)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:273)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at ru.itis.javalab.config.AppConfiguration.dataSource(AppConfiguration.java:37)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$a639d659.CGLIB$dataSource$0(<generated>)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$a639d659$$FastClassBySpringCGLIB$$9730d0fa.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$a639d659.dataSource(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:483)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:89)
+	at ru.itis.javalab.servlets.UsersServlet.init(UsersServlet.java:35)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1134)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1089)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:761)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:135)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+23:13:07 ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Exception during pool initialization. 
+org.postgresql.util.PSQLException: ВАЖНО: база данных "javaLab" не существует (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2665)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:147)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:273)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at ru.itis.javalab.config.AppConfiguration.dataSource(AppConfiguration.java:37)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$a639d659.CGLIB$dataSource$0(<generated>)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$a639d659$$FastClassBySpringCGLIB$$9730d0fa.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at ru.itis.javalab.config.AppConfiguration$$EnhancerBySpringCGLIB$$a639d659.dataSource(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:483)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:89)
+	at ru.itis.javalab.servlets.UsersServlet.init(UsersServlet.java:35)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1134)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1089)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:761)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:135)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+23:13:07 WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usersRepositoryJdbcTemplateImpl' defined in file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\repositories\UsersRepositoryJdbcTemplateImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in ru.itis.javalab.config.AppConfiguration: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: ВАЖНО: база данных "javaLab" не существует (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf) 
+23:16:32 DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2c14f014 
+23:16:32 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+23:16:32 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\repositories\UsersRepositoryJdbcTemplateImpl.class] 
+23:16:32 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\PasswordEncoderServiceImpl.class] 
+23:16:32 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\UsersServiceImpl.class] 
+23:16:32 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor' 
+23:16:32 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory' 
+23:16:32 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+23:16:32 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+23:16:32 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfiguration' 
+23:16:32 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersRepositoryJdbcTemplateImpl' 
+23:16:32 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource' 
+23:16:32 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.url' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:16:32 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.driver.classname' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@182decdb
+ 
+23:16:32 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.username' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:16:32 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.password' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:16:32 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.hikari.max-pool-size' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-5 - configuration: 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>} 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver" 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{} 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javaLab_webapp 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked> 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-5" 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres" 
+23:16:32 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000 
+23:16:32 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting... 
+23:16:32 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@6da47872 
+23:16:32 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed. 
+23:16:32 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'usersRepositoryJdbcTemplateImpl' via constructor to bean named 'dataSource' 
+23:16:33 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEncoderServiceImpl' 
+23:16:33 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEncoder' 
+23:16:33 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'passwordEncoderServiceImpl' via constructor to bean named 'passwordEncoder' 
+23:16:33 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersServiceImpl' 
+23:16:33 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'usersServiceImpl' via constructor to bean named 'usersRepositoryJdbcTemplateImpl' 
+23:16:33 INFO  ru.itis.javalab.loggers.Logger - /users 
+23:16:33 DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL query 
+23:16:33 DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [select * from account where age = ?] 
+23:16:33 DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource 
+23:16:33 DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [select * from account] 
+23:16:33 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Pool stats (total=1, active=0, idle=1, waiting=0) 
+23:16:33 DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource 
+23:16:33 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@5fd366f6 
+23:16:33 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@5114937c 
+23:16:33 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@552b0d86 
+23:16:33 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@10299947 
+23:16:33 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@5409b962 
+23:16:33 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@21f34fec 
+23:16:33 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@2c393169 
+23:16:33 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@70066608 
+23:16:33 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@69dd03c3 
+23:16:33 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - After adding stats (total=10, active=0, idle=10, waiting=0) 
+23:17:03 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:17:03 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Fill pool skipped, pool is at sufficient level. 
+23:17:33 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:17:33 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Fill pool skipped, pool is at sufficient level. 
+23:18:03 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:18:03 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Fill pool skipped, pool is at sufficient level. 
+23:18:33 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:18:33 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Fill pool skipped, pool is at sufficient level. 
+23:19:03 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:19:03 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Fill pool skipped, pool is at sufficient level. 
+23:19:33 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:19:33 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Fill pool skipped, pool is at sufficient level. 
+23:20:03 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:20:03 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Fill pool skipped, pool is at sufficient level. 
+23:20:22 DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@514e6d19 
+23:20:22 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+23:20:22 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\repositories\UsersRepositoryJdbcTemplateImpl.class] 
+23:20:22 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\PasswordEncoderServiceImpl.class] 
+23:20:22 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\UsersServiceImpl.class] 
+23:20:22 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor' 
+23:20:22 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory' 
+23:20:22 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+23:20:22 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+23:20:22 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfiguration' 
+23:20:22 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersRepositoryJdbcTemplateImpl' 
+23:20:22 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource' 
+23:20:22 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.url' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:20:22 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.driver.classname' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@182decdb
+ 
+23:20:22 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.username' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:20:22 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.password' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:20:22 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.hikari.max-pool-size' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-6 - configuration: 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>} 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver" 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{} 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javaLab_webapp 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked> 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-6" 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres" 
+23:20:22 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000 
+23:20:22 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting... 
+23:20:23 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@76175481 
+23:20:23 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed. 
+23:20:23 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'usersRepositoryJdbcTemplateImpl' via constructor to bean named 'dataSource' 
+23:20:23 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEncoderServiceImpl' 
+23:20:23 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEncoder' 
+23:20:23 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'passwordEncoderServiceImpl' via constructor to bean named 'passwordEncoder' 
+23:20:23 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersServiceImpl' 
+23:20:23 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'usersServiceImpl' via constructor to bean named 'usersRepositoryJdbcTemplateImpl' 
+23:20:23 INFO  ru.itis.javalab.loggers.Logger - /login 
+23:20:23 INFO  ru.itis.javalab.loggers.Logger - /styles/sign_in.css 
+23:20:23 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Pool stats (total=1, active=0, idle=1, waiting=0) 
+23:20:23 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@32ff2313 
+23:20:23 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@36c0b194 
+23:20:23 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@73c22928 
+23:20:23 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@9d7224e 
+23:20:23 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@427b7fdc 
+23:20:23 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@71842a16 
+23:20:23 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@13edd667 
+23:20:23 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@23984306 
+23:20:23 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@3a844d36 
+23:20:23 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - After adding stats (total=10, active=0, idle=10, waiting=0) 
+23:20:30 INFO  ru.itis.javalab.loggers.Logger - /login 
+23:20:30 DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL query 
+23:20:30 DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [select * from account where login = ?] 
+23:20:30 DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource 
+23:20:36 INFO  ru.itis.javalab.loggers.Logger - /profile 
+23:20:53 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:20:53 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Fill pool skipped, pool is at sufficient level. 
+23:21:23 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:21:23 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Fill pool skipped, pool is at sufficient level. 
+23:21:53 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:21:53 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Fill pool skipped, pool is at sufficient level. 
+23:22:23 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:22:23 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Fill pool skipped, pool is at sufficient level. 
+23:22:53 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:22:53 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Fill pool skipped, pool is at sufficient level. 
+23:23:23 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:23:23 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Fill pool skipped, pool is at sufficient level. 
+23:23:53 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:23:53 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Fill pool skipped, pool is at sufficient level. 
+23:24:23 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:24:23 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Fill pool skipped, pool is at sufficient level. 
+23:26:00 DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@26c11ba7 
+23:26:00 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+23:26:00 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\repositories\UsersRepositoryJdbcTemplateImpl.class] 
+23:26:00 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\PasswordEncoderServiceImpl.class] 
+23:26:00 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\UsersServiceImpl.class] 
+23:26:00 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor' 
+23:26:00 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory' 
+23:26:00 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+23:26:00 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+23:26:00 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfiguration' 
+23:26:00 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersRepositoryJdbcTemplateImpl' 
+23:26:00 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource' 
+23:26:00 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.url' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:26:00 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.driver.classname' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@182decdb
+ 
+23:26:00 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.username' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:26:00 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.password' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:26:00 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.hikari.max-pool-size' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-7 - configuration: 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>} 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver" 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{} 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javaLab_webapp 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked> 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-7" 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres" 
+23:26:00 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000 
+23:26:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting... 
+23:26:00 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@71cbe0a0 
+23:26:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed. 
+23:26:00 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'usersRepositoryJdbcTemplateImpl' via constructor to bean named 'dataSource' 
+23:26:00 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEncoderServiceImpl' 
+23:26:00 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEncoder' 
+23:26:00 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'passwordEncoderServiceImpl' via constructor to bean named 'passwordEncoder' 
+23:26:00 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersServiceImpl' 
+23:26:00 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'usersServiceImpl' via constructor to bean named 'usersRepositoryJdbcTemplateImpl' 
+23:26:00 INFO  ru.itis.javalab.loggers.Logger - /login 
+23:26:00 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Pool stats (total=1, active=0, idle=1, waiting=0) 
+23:26:00 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@194b8856 
+23:26:00 INFO  ru.itis.javalab.loggers.Logger - /login 
+23:26:00 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@178c650f 
+23:26:00 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@13b3e326 
+23:26:00 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@56b16f34 
+23:26:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@137d548c 
+23:26:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@67adfff1 
+23:26:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@6b8b9af1 
+23:26:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@369e907b 
+23:26:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@4f3e6b10 
+23:26:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - After adding stats (total=10, active=0, idle=10, waiting=0) 
+23:26:30 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:26:30 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Fill pool skipped, pool is at sufficient level. 
+23:27:00 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:27:00 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Fill pool skipped, pool is at sufficient level. 
+23:27:40 DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@17c6c2bd 
+23:27:40 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+23:27:40 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\repositories\UsersRepositoryJdbcTemplateImpl.class] 
+23:27:40 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\PasswordEncoderServiceImpl.class] 
+23:27:40 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\UsersServiceImpl.class] 
+23:27:40 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor' 
+23:27:40 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory' 
+23:27:40 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+23:27:40 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+23:27:40 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfiguration' 
+23:27:40 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersRepositoryJdbcTemplateImpl' 
+23:27:40 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource' 
+23:27:40 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.url' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:27:40 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.driver.classname' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@182decdb
+ 
+23:27:40 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.username' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:27:40 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.password' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:27:40 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.hikari.max-pool-size' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-8 - configuration: 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>} 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver" 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{} 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javaLab_webapp 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked> 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-8" 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres" 
+23:27:40 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000 
+23:27:40 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting... 
+23:27:40 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@3aef9365 
+23:27:40 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed. 
+23:27:40 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'usersRepositoryJdbcTemplateImpl' via constructor to bean named 'dataSource' 
+23:27:40 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEncoderServiceImpl' 
+23:27:40 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEncoder' 
+23:27:40 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'passwordEncoderServiceImpl' via constructor to bean named 'passwordEncoder' 
+23:27:40 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersServiceImpl' 
+23:27:40 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'usersServiceImpl' via constructor to bean named 'usersRepositoryJdbcTemplateImpl' 
+23:27:40 INFO  ru.itis.javalab.loggers.Logger - /login 
+23:27:40 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Pool stats (total=1, active=0, idle=1, waiting=0) 
+23:27:40 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@737ddc03 
+23:27:40 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@7dba2c1c 
+23:27:41 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@7985b773 
+23:27:41 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@3c872627 
+23:27:41 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@21876870 
+23:27:41 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@d717a90 
+23:27:41 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@599b6a62 
+23:27:41 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@5ca8d968 
+23:27:41 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@4676fe65 
+23:27:41 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - After adding stats (total=10, active=0, idle=10, waiting=0) 
+23:28:10 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:28:10 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Fill pool skipped, pool is at sufficient level. 
+23:28:40 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:28:40 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Fill pool skipped, pool is at sufficient level. 
+23:29:10 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:29:10 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Fill pool skipped, pool is at sufficient level. 
+23:29:40 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:29:40 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Fill pool skipped, pool is at sufficient level. 
+23:30:12 DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b4fb9a0 
+23:30:12 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+23:30:13 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\repositories\UsersRepositoryJdbcTemplateImpl.class] 
+23:30:13 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\PasswordEncoderServiceImpl.class] 
+23:30:13 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\UsersServiceImpl.class] 
+23:30:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor' 
+23:30:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory' 
+23:30:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+23:30:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+23:30:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfiguration' 
+23:30:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersRepositoryJdbcTemplateImpl' 
+23:30:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource' 
+23:30:13 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.url' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:30:13 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.driver.classname' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@182decdb
+ 
+23:30:13 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.username' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:30:13 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.password' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:30:13 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.hikari.max-pool-size' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-9 - configuration: 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>} 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver" 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{} 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javaLab_webapp 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked> 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-9" 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres" 
+23:30:13 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000 
+23:30:13 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting... 
+23:30:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection org.postgresql.jdbc.PgConnection@341e71b0 
+23:30:13 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed. 
+23:30:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'usersRepositoryJdbcTemplateImpl' via constructor to bean named 'dataSource' 
+23:30:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEncoderServiceImpl' 
+23:30:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEncoder' 
+23:30:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'passwordEncoderServiceImpl' via constructor to bean named 'passwordEncoder' 
+23:30:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersServiceImpl' 
+23:30:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'usersServiceImpl' via constructor to bean named 'usersRepositoryJdbcTemplateImpl' 
+23:30:13 INFO  ru.itis.javalab.loggers.Logger - /login 
+23:30:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Pool stats (total=1, active=0, idle=1, waiting=0) 
+23:30:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection org.postgresql.jdbc.PgConnection@5f78ba5 
+23:30:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection org.postgresql.jdbc.PgConnection@b30756b 
+23:30:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection org.postgresql.jdbc.PgConnection@f0fe0d5 
+23:30:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection org.postgresql.jdbc.PgConnection@4a0d7f50 
+23:30:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection org.postgresql.jdbc.PgConnection@731e6f17 
+23:30:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection org.postgresql.jdbc.PgConnection@7b8dd732 
+23:30:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection org.postgresql.jdbc.PgConnection@b7499de 
+23:30:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection org.postgresql.jdbc.PgConnection@2a22801f 
+23:30:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection org.postgresql.jdbc.PgConnection@2ac4349b 
+23:30:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - After adding stats (total=10, active=0, idle=10, waiting=0) 
+23:30:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:30:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Fill pool skipped, pool is at sufficient level. 
+23:31:03 DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1495d3a1 
+23:31:03 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+23:31:03 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\repositories\UsersRepositoryJdbcTemplateImpl.class] 
+23:31:03 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\PasswordEncoderServiceImpl.class] 
+23:31:03 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\UsersServiceImpl.class] 
+23:31:03 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor' 
+23:31:03 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory' 
+23:31:03 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+23:31:03 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+23:31:03 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfiguration' 
+23:31:03 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersRepositoryJdbcTemplateImpl' 
+23:31:03 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource' 
+23:31:03 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.url' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:31:03 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.driver.classname' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@182decdb
+ 
+23:31:03 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.username' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:31:03 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.password' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:31:03 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.hikari.max-pool-size' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-10 - configuration: 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>} 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver" 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{} 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javaLab_webapp 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked> 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-10" 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres" 
+23:31:03 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000 
+23:31:03 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting... 
+23:31:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Added connection org.postgresql.jdbc.PgConnection@5d044c1e 
+23:31:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed. 
+23:31:04 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'usersRepositoryJdbcTemplateImpl' via constructor to bean named 'dataSource' 
+23:31:04 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEncoderServiceImpl' 
+23:31:04 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEncoder' 
+23:31:04 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'passwordEncoderServiceImpl' via constructor to bean named 'passwordEncoder' 
+23:31:04 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersServiceImpl' 
+23:31:04 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'usersServiceImpl' via constructor to bean named 'usersRepositoryJdbcTemplateImpl' 
+23:31:04 INFO  ru.itis.javalab.loggers.Logger - /login 
+23:31:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Pool stats (total=1, active=0, idle=1, waiting=0) 
+23:31:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Added connection org.postgresql.jdbc.PgConnection@5676aaf0 
+23:31:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Added connection org.postgresql.jdbc.PgConnection@58b15e4e 
+23:31:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Added connection org.postgresql.jdbc.PgConnection@5c8ec180 
+23:31:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Added connection org.postgresql.jdbc.PgConnection@198c5475 
+23:31:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Added connection org.postgresql.jdbc.PgConnection@7a4e4c9e 
+23:31:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Added connection org.postgresql.jdbc.PgConnection@285f2eb7 
+23:31:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Added connection org.postgresql.jdbc.PgConnection@27768fd 
+23:31:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Added connection org.postgresql.jdbc.PgConnection@79a3ab3a 
+23:31:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Added connection org.postgresql.jdbc.PgConnection@7181322c 
+23:31:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - After adding stats (total=10, active=0, idle=10, waiting=0) 
+23:31:09 INFO  ru.itis.javalab.loggers.Logger - /login 
+23:31:09 DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL query 
+23:31:09 DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [select * from account where login = ?] 
+23:31:09 DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource 
+23:31:24 INFO  ru.itis.javalab.loggers.Logger - /profile 
+23:31:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:31:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Fill pool skipped, pool is at sufficient level. 
+23:32:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:32:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Fill pool skipped, pool is at sufficient level. 
+23:32:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:32:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Fill pool skipped, pool is at sufficient level. 
+23:33:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:33:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Fill pool skipped, pool is at sufficient level. 
+23:33:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:33:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Fill pool skipped, pool is at sufficient level. 
+23:34:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:34:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Fill pool skipped, pool is at sufficient level. 
+23:34:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:34:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Fill pool skipped, pool is at sufficient level. 
+23:35:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:35:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Fill pool skipped, pool is at sufficient level. 
+23:35:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:35:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Fill pool skipped, pool is at sufficient level. 
+23:36:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:36:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Fill pool skipped, pool is at sufficient level. 
+23:36:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:36:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Fill pool skipped, pool is at sufficient level. 
+23:37:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:37:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Fill pool skipped, pool is at sufficient level. 
+23:37:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:37:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Fill pool skipped, pool is at sufficient level. 
+23:38:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:38:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Fill pool skipped, pool is at sufficient level. 
+23:38:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:38:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Fill pool skipped, pool is at sufficient level. 
+23:39:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:39:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Fill pool skipped, pool is at sufficient level. 
+23:39:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:39:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Fill pool skipped, pool is at sufficient level. 
+23:40:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:40:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Fill pool skipped, pool is at sufficient level. 
+23:41:44 DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@138c7401 
+23:41:44 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+23:41:44 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\repositories\UsersRepositoryJdbcTemplateImpl.class] 
+23:41:44 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\PasswordEncoderServiceImpl.class] 
+23:41:44 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\UsersServiceImpl.class] 
+23:41:44 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor' 
+23:41:44 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory' 
+23:41:44 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+23:41:44 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+23:41:44 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfiguration' 
+23:41:44 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersRepositoryJdbcTemplateImpl' 
+23:41:44 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource' 
+23:41:44 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.url' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:41:44 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.driver.classname' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@182decdb
+ 
+23:41:44 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.username' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:41:44 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.password' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:41:44 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.hikari.max-pool-size' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-11 - configuration: 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>} 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver" 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{} 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javaLab_webapp 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked> 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-11" 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres" 
+23:41:44 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000 
+23:41:44 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Starting... 
+23:41:44 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Added connection org.postgresql.jdbc.PgConnection@795115ec 
+23:41:44 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Start completed. 
+23:41:44 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'usersRepositoryJdbcTemplateImpl' via constructor to bean named 'dataSource' 
+23:41:44 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEncoderServiceImpl' 
+23:41:44 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEncoder' 
+23:41:44 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'passwordEncoderServiceImpl' via constructor to bean named 'passwordEncoder' 
+23:41:44 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersServiceImpl' 
+23:41:44 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'usersServiceImpl' via constructor to bean named 'usersRepositoryJdbcTemplateImpl' 
+23:41:45 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Pool stats (total=1, active=0, idle=1, waiting=0) 
+23:41:45 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Added connection org.postgresql.jdbc.PgConnection@38686f63 
+23:41:45 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Added connection org.postgresql.jdbc.PgConnection@36af861e 
+23:41:45 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Added connection org.postgresql.jdbc.PgConnection@32900413 
+23:41:45 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Added connection org.postgresql.jdbc.PgConnection@77928c25 
+23:41:45 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Added connection org.postgresql.jdbc.PgConnection@c7ae6c3 
+23:41:45 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Added connection org.postgresql.jdbc.PgConnection@46af1e24 
+23:41:45 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Added connection org.postgresql.jdbc.PgConnection@74ad2a7e 
+23:41:45 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Added connection org.postgresql.jdbc.PgConnection@17bd736a 
+23:41:45 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Added connection org.postgresql.jdbc.PgConnection@4caad3a0 
+23:41:45 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - After adding stats (total=10, active=0, idle=10, waiting=0) 
+23:41:49 DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL query 
+23:41:49 DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [select * from account where uuid = ?] 
+23:41:49 DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource 
+23:41:49 INFO  ru.itis.javalab.loggers.Logger - /profile 
+23:42:15 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:42:15 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Fill pool skipped, pool is at sufficient level. 
+23:42:45 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:42:45 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Fill pool skipped, pool is at sufficient level. 
+23:43:15 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:43:15 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Fill pool skipped, pool is at sufficient level. 
+23:43:45 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:43:45 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Fill pool skipped, pool is at sufficient level. 
+23:44:15 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:44:15 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Fill pool skipped, pool is at sufficient level. 
+23:44:42 DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@51ee5076 
+23:44:42 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+23:44:42 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\repositories\UsersRepositoryJdbcTemplateImpl.class] 
+23:44:42 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\PasswordEncoderServiceImpl.class] 
+23:44:42 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\UsersServiceImpl.class] 
+23:44:43 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor' 
+23:44:43 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory' 
+23:44:43 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+23:44:43 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+23:44:43 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfiguration' 
+23:44:43 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersRepositoryJdbcTemplateImpl' 
+23:44:43 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource' 
+23:44:43 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.url' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:44:43 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.driver.classname' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@182decdb
+ 
+23:44:43 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.username' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:44:43 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.password' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:44:43 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.hikari.max-pool-size' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-12 - configuration: 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>} 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver" 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{} 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javaLab_webapp 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked> 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-12" 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres" 
+23:44:43 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000 
+23:44:43 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Starting... 
+23:44:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Added connection org.postgresql.jdbc.PgConnection@33c5c328 
+23:44:43 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Start completed. 
+23:44:43 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'usersRepositoryJdbcTemplateImpl' via constructor to bean named 'dataSource' 
+23:44:43 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEncoderServiceImpl' 
+23:44:43 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEncoder' 
+23:44:43 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'passwordEncoderServiceImpl' via constructor to bean named 'passwordEncoder' 
+23:44:43 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersServiceImpl' 
+23:44:43 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'usersServiceImpl' via constructor to bean named 'usersRepositoryJdbcTemplateImpl' 
+23:44:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Pool stats (total=1, active=0, idle=1, waiting=0) 
+23:44:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Added connection org.postgresql.jdbc.PgConnection@495c8c4 
+23:44:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Added connection org.postgresql.jdbc.PgConnection@a523626 
+23:44:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Added connection org.postgresql.jdbc.PgConnection@e6da3b4 
+23:44:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Added connection org.postgresql.jdbc.PgConnection@4b6f3c1d 
+23:44:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Added connection org.postgresql.jdbc.PgConnection@61161e5c 
+23:44:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Added connection org.postgresql.jdbc.PgConnection@7aeef75e 
+23:44:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Added connection org.postgresql.jdbc.PgConnection@197d8bb4 
+23:44:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Added connection org.postgresql.jdbc.PgConnection@2b40c352 
+23:44:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Added connection org.postgresql.jdbc.PgConnection@7a75dc98 
+23:44:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - After adding stats (total=10, active=0, idle=10, waiting=0) 
+23:44:47 DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL query 
+23:44:47 DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [select * from account where uuid = ?] 
+23:44:47 DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource 
+23:44:47 INFO  ru.itis.javalab.loggers.Logger - /profile 
+23:44:47 INFO  ru.itis.javalab.loggers.Logger - /styles/profile.css 
+23:44:50 INFO  ru.itis.javalab.loggers.Logger - /profile 
+23:44:50 INFO  ru.itis.javalab.loggers.Logger - /styles/profile.css 
+23:45:13 DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@49b0cba4 
+23:45:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+23:45:13 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\repositories\UsersRepositoryJdbcTemplateImpl.class] 
+23:45:13 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\PasswordEncoderServiceImpl.class] 
+23:45:13 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\dakal\OneDrive\Документы\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\ROOT\WEB-INF\classes\ru\itis\javalab\services\UsersServiceImpl.class] 
+23:45:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor' 
+23:45:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory' 
+23:45:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+23:45:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+23:45:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfiguration' 
+23:45:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersRepositoryJdbcTemplateImpl' 
+23:45:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource' 
+23:45:13 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.url' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:45:13 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.driver.classname' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@182decdb
+ 
+23:45:13 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.username' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:45:13 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.password' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:45:13 DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'db.hikari.max-pool-size' in PropertySource 'class path resource [properties/db.properties]' with value of type String 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-13 - configuration: 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>} 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver" 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{} 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/javaLab_webapp 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked> 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-13" 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres" 
+23:45:13 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000 
+23:45:13 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Starting... 
+23:45:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Added connection org.postgresql.jdbc.PgConnection@4c558f4d 
+23:45:13 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Start completed. 
+23:45:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'usersRepositoryJdbcTemplateImpl' via constructor to bean named 'dataSource' 
+23:45:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEncoderServiceImpl' 
+23:45:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordEncoder' 
+23:45:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'passwordEncoderServiceImpl' via constructor to bean named 'passwordEncoder' 
+23:45:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'usersServiceImpl' 
+23:45:13 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'usersServiceImpl' via constructor to bean named 'usersRepositoryJdbcTemplateImpl' 
+23:45:13 INFO  ru.itis.javalab.loggers.Logger - /login 
+23:45:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Pool stats (total=1, active=0, idle=1, waiting=0) 
+23:45:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:45:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Fill pool skipped, pool is at sufficient level. 
+23:45:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Added connection org.postgresql.jdbc.PgConnection@58bd9398 
+23:45:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Added connection org.postgresql.jdbc.PgConnection@567a66ff 
+23:45:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Added connection org.postgresql.jdbc.PgConnection@5245f8e8 
+23:45:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Added connection org.postgresql.jdbc.PgConnection@17476cc4 
+23:45:13 INFO  ru.itis.javalab.loggers.Logger - /login 
+23:45:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Added connection org.postgresql.jdbc.PgConnection@23d20ce7 
+23:45:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Added connection org.postgresql.jdbc.PgConnection@269adbfc 
+23:45:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Added connection org.postgresql.jdbc.PgConnection@5be5e57f 
+23:45:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Added connection org.postgresql.jdbc.PgConnection@7768938b 
+23:45:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Added connection org.postgresql.jdbc.PgConnection@446e1cb5 
+23:45:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - After adding stats (total=10, active=0, idle=10, waiting=0) 
+23:45:17 INFO  ru.itis.javalab.loggers.Logger - /profile 
+23:45:17 INFO  ru.itis.javalab.loggers.Logger - /styles/profile.css 
+23:45:17 INFO  ru.itis.javalab.loggers.Logger - /profile 
+23:45:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:45:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Fill pool skipped, pool is at sufficient level. 
+23:45:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:45:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Fill pool skipped, pool is at sufficient level. 
+23:46:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:46:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Fill pool skipped, pool is at sufficient level. 
+23:46:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:46:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Fill pool skipped, pool is at sufficient level. 
+23:46:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:46:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Fill pool skipped, pool is at sufficient level. 
+23:46:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+23:46:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Fill pool skipped, pool is at sufficient level. 
