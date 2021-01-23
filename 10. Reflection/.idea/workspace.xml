@@ -2,31 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82bbef83-09c6-4c02-8322-9789a0f4ca8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../05.webapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/listeners/AppConfigServletContextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/listeners/AppConfigServletContextListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/repositories/UsersRepositoryJdbcTemplateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/repositories/UsersRepositoryJdbcTemplateImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/services/PasswordEncoderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/services/PasswordEncoderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/services/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/services/UsersServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/servlets/LogInServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/servlets/LogInServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/servlets/UsersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/servlets/UsersServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/src/main/resources/logs/slf4jlogback_2020-11-04.log" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/src/main/resources/logs/slf4jlogback_2020-11-04.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/src/main/webapp/WEB-INF/properties/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/src/main/resources/properties/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/logs/slf4jlogback_2020-11-04.log" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/logs/slf4jlogback_2020-11-04.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/listeners/AppConfigServletContextListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/repositories/UsersRepositoryJdbcTemplateImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/repositories/UsersRepositoryJdbcTemplateImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/services/PasswordEncoderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/services/PasswordEncoderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/services/UsersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/services/UsersServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/servlets/LogInServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/servlets/LogInServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/servlets/UsersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/05.webapp-1.0/WEB-INF/classes/ru/itis/javalab/servlets/UsersServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/target/classes/logs/slf4jlogback_2020-11-04.log" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/classes/logs/slf4jlogback_2020-11-04.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/listeners/AppConfigServletContextListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/repositories/UsersRepositoryJdbcTemplateImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/repositories/UsersRepositoryJdbcTemplateImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/services/PasswordEncoderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/services/PasswordEncoderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/services/UsersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/services/UsersServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/servlets/LogInServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/servlets/LogInServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/servlets/UsersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/target/classes/ru/itis/javalab/servlets/UsersServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/filters/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05.webapp/src/main/java/ru/itis/javalab/filters/AuthFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16.CSRF_springMVC/src/main/java/ru/itis/javaLab/filters/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16.CSRF_springMVC/src/main/java/ru/itis/javaLab/filters/AuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16.CSRF_springMVC/src/main/java/ru/itis/javaLab/filters/CSRFfilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16.CSRF_springMVC/src/main/java/ru/itis/javaLab/filters/CSRFfilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16.CSRF_springMVC/src/main/java/ru/itis/javaLab/repositories/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16.CSRF_springMVC/src/main/java/ru/itis/javaLab/repositories/UsersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16.CSRF_springMVC/target/16.CSRF_springMVC-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/../16.CSRF_springMVC/target/16.CSRF_springMVC-1.0.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16.CSRF_springMVC/target/16.CSRF_springMVC-1.0/WEB-INF/classes/ru/itis/javaLab/controllers/SignInController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../16.CSRF_springMVC/target/16.CSRF_springMVC-1.0/WEB-INF/classes/ru/itis/javaLab/controllers/SignInController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16.CSRF_springMVC/target/16.CSRF_springMVC-1.0/WEB-INF/classes/ru/itis/javaLab/filters/AuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../16.CSRF_springMVC/target/16.CSRF_springMVC-1.0/WEB-INF/classes/ru/itis/javaLab/filters/AuthFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16.CSRF_springMVC/target/16.CSRF_springMVC-1.0/WEB-INF/classes/ru/itis/javaLab/filters/CSRFfilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../16.CSRF_springMVC/target/16.CSRF_springMVC-1.0/WEB-INF/classes/ru/itis/javaLab/filters/CSRFfilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16.CSRF_springMVC/target/16.CSRF_springMVC-1.0/WEB-INF/classes/ru/itis/javaLab/repositories/UsersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../16.CSRF_springMVC/target/16.CSRF_springMVC-1.0/WEB-INF/classes/ru/itis/javaLab/repositories/UsersRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16.CSRF_springMVC/target/classes/ru/itis/javaLab/controllers/SignInController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../16.CSRF_springMVC/target/classes/ru/itis/javaLab/controllers/SignInController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16.CSRF_springMVC/target/classes/ru/itis/javaLab/filters/AuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../16.CSRF_springMVC/target/classes/ru/itis/javaLab/filters/AuthFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16.CSRF_springMVC/target/classes/ru/itis/javaLab/filters/CSRFfilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../16.CSRF_springMVC/target/classes/ru/itis/javaLab/filters/CSRFfilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16.CSRF_springMVC/target/classes/ru/itis/javaLab/repositories/UsersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../16.CSRF_springMVC/target/classes/ru/itis/javaLab/repositories/UsersRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Downloader lib/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Downloader lib/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Downloader lib/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Downloader lib/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Downloader lib/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Downloader lib/Downloader lib.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Downloader lib/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Downloader lib/src/java/main/ImageDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Downloader lib/target/DownloaderLib-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Downloader lib/target/DownloaderLib-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Downloader lib/target/classes/ImageDownloader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Downloader lib/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Downloader lib/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Downloader lib/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Downloader lib/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/ru/itis/javalab/app/Args.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/ru/itis/javalab/app/Downloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/ru/itis/javalab/app/UrlsConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/ru/itis/javalab/utils/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/ru/itis/javalab/utils/ThreadPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/META-INF/second_course.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/manifest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +136,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../05.webapp" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -188,6 +202,8 @@
       <workItem from="1604686171178" duration="16982000" />
       <workItem from="1604757182014" duration="12000" />
       <workItem from="1605643383168" duration="14000" />
+      <workItem from="1611405597589" duration="16000" />
+      <workItem from="1611405790783" duration="256000" />
     </task>
     <servers />
   </component>
@@ -207,10 +223,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1604691624811" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1604757191469">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1611406045623">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604757191469" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1611406045623" />
     <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1604706396984">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

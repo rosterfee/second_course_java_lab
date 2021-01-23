@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.Optional;
 import java.util.UUID;
 
@@ -65,6 +66,7 @@ public class AuthFilter implements Filter {
         else {
             filterChain.doFilter(req, resp);
         }
+
     }
 
     @Override

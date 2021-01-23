@@ -13,7 +13,7 @@ import java.util.*;
 @Repository
 public class UsersRepository implements CrudRepository<User> {
 
-    DataSource dataSource;
+    @Autowired
     NamedParameterJdbcTemplate jdbcTemplate;
     Map<String, Object> params;
     RowMapper<User> userRowMapper = (row, i) -> User.builder()
@@ -28,12 +28,6 @@ public class UsersRepository implements CrudRepository<User> {
 
     //language=sql
     private static final String SQL_DELETE_USER_BY_ID = "delete from account where id = :id";
-
-    @Autowired
-    public UsersRepository(DataSource dataSource, NamedParameterJdbcTemplate jdbcTemplate) {
-        this.dataSource = dataSource;
-        this.jdbcTemplate = jdbcTemplate;
-    }
 
     public Optional<User> findUserByLoginAndPassword(String login, String password) {
         params = new HashMap<>();
