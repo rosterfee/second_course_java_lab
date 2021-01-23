@@ -29,7 +29,7 @@ public class CsrfInterceptor implements HandlerInterceptor {
         else if (request.getMethod().equals("POST")) {
             if (!session.getAttribute("_csrf_token").equals(request.getParameter("_csrf_token"))) {
                 response.sendRedirect("/sign_in");
-            }
+            } else request.getRequestDispatcher("forbidden").forward(request, response);
         }
     }
 
