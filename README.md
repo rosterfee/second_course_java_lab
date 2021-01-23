@@ -6,5 +6,5 @@
 * 08 : 05.webapp
 * 09 : 09.Socket
 * 10 : 15.Annotations_Source
-* 11 : 16.CSRF_Servlets + 16.CSRF_springMVC
+* 11 : 16.CSRF_Servlets + 16.CSRF_springMVC (Персистентное хранилище сессий не робит:(( )
         
