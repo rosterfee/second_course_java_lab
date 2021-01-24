@@ -34,7 +34,7 @@ public class CsrfFilter implements Filter {
 
             if (session.getAttribute("_csrf_token").equals(httpServletRequest.getParameter("_csrf_token"))) {
                 filterChain.doFilter(httpServletRequest, httpServletResponse);
-            } else httpServletResponse.sendRedirect("/sign_in");
+            } else httpServletRequest.getRequestDispatcher("forbidden.ftl").forward(httpServletRequest, httpServletResponse);
         }
 
     }

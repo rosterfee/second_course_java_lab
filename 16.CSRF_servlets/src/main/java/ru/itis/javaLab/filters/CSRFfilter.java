@@ -29,7 +29,7 @@ public class CSRFfilter implements Filter {
         else if (method.equals("POST")) {
             if (session.getAttribute("_csrf_token").equals(httpServletRequest.getParameter("_csrf_token"))) {
                 filterChain.doFilter(httpServletRequest, httpServletResponse);
-            } else httpServletResponse.sendRedirect("/sign_in");
+            } else httpServletRequest.getRequestDispatcher("forbidden.ftl");
         }
 
     }
