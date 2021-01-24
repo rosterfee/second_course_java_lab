@@ -6,6 +6,6 @@
 * 08 : 05.webapp - https://github.com/rosterfee/second_course_java_lab/tree/master/05.webapp
 * 09 : 09.Socket - https://github.com/rosterfee/second_course_java_lab/tree/master/09.Socket
 * 10 : 15.Annotations_Source - https://github.com/rosterfee/second_course_java_lab/tree/master/15.Annotations_Source
-* 11 : 16.CSRF_Servlets + 16.CSRF_springMVC (Персистентное хранилище сессий не робит:(( ) - https://github.com/rosterfee/second_course_java_lab/tree/master/16.CSRF_Servlets
+* 11 : 16.CSRF_servlets + 16.CSRF_springMVC (Персистентное хранилище сессий не робит:(( ) - https://github.com/rosterfee/second_course_java_lab/tree/master/16.CSRF_servlets
 https://github.com/rosterfee/second_course_java_lab/tree/master/16.CSRF_springMVC
         
