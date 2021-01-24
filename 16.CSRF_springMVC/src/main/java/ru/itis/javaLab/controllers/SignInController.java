@@ -37,7 +37,6 @@ public class SignInController {
             session.setAttribute("user", optionalUser.get());
             return "redirect:profile";
         }
-
         return "redirect:sign_in?status=wrong login or password";
     }
 
