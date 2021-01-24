@@ -1,6 +1,6 @@
 Какие домашки в каких проектах находятся:
 ---------------------------------------------
-* 02 - 03 : Image downloader app
+* 02 - 03 : Image downloader app - https://github.com/rosterfee/second_course_java_lab/tree/master/Image%20downloader%20app
 * 04 - 06 : 05.webapp
 * 07 : 10.Reflection
 * 08 : 05.webapp
