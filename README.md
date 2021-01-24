@@ -1,6 +1,6 @@
 Какие домашки в каких проектах находятся:
 ---------------------------------------------
-* 01 - 03 : Image downloader app
+* 02 - 03 : Image downloader app
 * 04 - 06 : 05.webapp
 * 07 : 10.Reflection
 * 08 : 05.webapp
