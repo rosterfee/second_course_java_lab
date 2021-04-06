@@ -30,10 +30,6 @@ public class Car {
 
     private String engine;
 
-    public enum Transmission {
-        AUTOMATIC, MECHANICAL, ROBOT
-    }
-
     private Transmission transmission;
 
     private String maxSpeed;
@@ -44,5 +40,9 @@ public class Car {
 
     @OneToMany(mappedBy = "car")
     private List<CarImage> images;
+
+    public enum Transmission {
+        AUTOMATIC, MECHANICAL, ROBOT
+    }
 
 }

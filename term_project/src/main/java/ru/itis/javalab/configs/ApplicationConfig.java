@@ -17,6 +17,7 @@ import org.springframework.orm.jpa.vendor.Database;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.session.jdbc.config.annotation.web.http.EnableJdbcHttpSession;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer;
@@ -33,6 +34,7 @@ import java.util.concurrent.Executors;
 @ComponentScan(basePackages = "ru.itis.javalab")
 @PropertySource("classpath:application.properties")
 @EnableJpaRepositories(basePackages = "ru.itis.javalab.repositories")
+@EnableJdbcHttpSession
 public class ApplicationConfig {
 
     @Autowired
@@ -105,9 +107,13 @@ public class ApplicationConfig {
     @Bean
     public Properties additionalProperties() {
         Properties properties = new Properties();
-        properties.setProperty("hibernate.hbm2ddl.auto", "create");
+        properties.setProperty("hibernate.hbm2ddl.auto", "update");
         properties.setProperty("hibernate.dialect", environment.getProperty("hibernate.dialect"));
         properties.setProperty("hibernate.show_sql", "true");
+        properties.setProperty("hibernate.hbm2ddl.import_files_sql_extractor", "org.hibernate.tool.hbm2ddl.MultipleLinesSqlCommandExtractor");
+        properties.setProperty("hibernate.connection.charSet","UTF-8");
+        properties.setProperty("connection.autocommit","true");
+        //properties.setProperty("hibernate.hbm2ddl.import_files", "org.springframework.session.jdbc.schema-postgresql.sql");
         return properties;
     }
 

@@ -1,6 +1,5 @@
 package ru.itis.javalab.configs;
 
-import lombok.SneakyThrows;
 import org.springframework.core.env.PropertySource;
 import org.springframework.core.io.support.ResourcePropertySource;
 import org.springframework.web.WebApplicationInitializer;

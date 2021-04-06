@@ -6,9 +6,6 @@ import ru.itis.javalab.models.User;
 import java.util.Optional;
 
 public interface UsersRepository extends JpaRepository<User, Long> {
-
     Optional<User> getUserByEmail(String email);
-
     Optional<User> getUserByConfirmCode(String code);
-
 }

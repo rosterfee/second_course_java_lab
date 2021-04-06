@@ -38,9 +38,12 @@ public class ProdSignUpService implements SignUpService{
                 .firstName(form.getFirstName())
                 .lastName(form.getLastName())
                 .email(email)
-                .password(passwordEncoder.encode(form.getPassword1()))
+                .hashPassword(passwordEncoder.encode(form.getPassword1()))
                 .avatar("default.png")
                 .confirmCode(confirmCode)
+                .status(User.Status.NOT_CONFIRMED)
+                .state(User.State.ACTIVE)
+                .role(User.Role.USER)
                 .build();
         usersRepository.save(user);
 

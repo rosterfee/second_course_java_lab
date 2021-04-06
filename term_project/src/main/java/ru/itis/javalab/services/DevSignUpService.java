@@ -24,9 +24,11 @@ public class DevSignUpService implements SignUpService {
                 .firstName(form.getFirstName())
                 .lastName(form.getLastName())
                 .email(form.getEmail())
-                .password(passwordEncoder.encode(form.getPassword1()))
+                .hashPassword(passwordEncoder.encode(form.getPassword1()))
                 .avatar("default.png")
-                .confirmCode(null)
+                .status(User.Status.CONFIRMED)
+                .state(User.State.ACTIVE)
+                .role(User.Role.USER)
                     .build();
         usersRepository.save(user);
     }
