@@ -33,7 +33,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.csrf().disable();
         http
                 .authorizeRequests()
                 .antMatchers("/profile").authenticated()
@@ -44,6 +43,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/pay_confirmation").hasAuthority("CONFIRMED")
                 .antMatchers("pay_offer").authenticated()
                 .antMatchers("pay_offer").hasAuthority("CONFIRMED")
+                .antMatchers("/sign_up/**").permitAll()
                     .and()
                 .formLogin()
                 .loginPage("/sign_in")
