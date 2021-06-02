@@ -43,7 +43,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/pay_confirmation").hasAuthority("CONFIRMED")
                 .antMatchers("pay_offer").authenticated()
                 .antMatchers("pay_offer").hasAuthority("CONFIRMED")
-                .antMatchers("/sign_up/**").permitAll()
+                .antMatchers("/sign_up/**", "/sign_up/*").permitAll()
                     .and()
                 .formLogin()
                 .loginPage("/sign_in")
@@ -56,6 +56,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .logoutUrl("/log_out")
                 .logoutSuccessUrl("/sign_in")
                 .invalidateHttpSession(true)
-                .deleteCookies("JSESSIONID");
+                .deleteCookies("JSESSIONID")
+                    .and()
+                .csrf().disable();
     }
 }

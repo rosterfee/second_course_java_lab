@@ -18,8 +18,8 @@ import java.util.Objects;
 import java.util.Optional;
 
 @Controller
-@RequestMapping("sign_up")
 @Profile("prod")
+@RequestMapping("sign_up")
 public class ProdSignUpController {
 
     @Autowired

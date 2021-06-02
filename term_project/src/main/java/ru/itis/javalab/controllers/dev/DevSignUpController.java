@@ -15,21 +15,20 @@ import ru.itis.javalab.services.SignUpService;
 import javax.validation.Valid;
 import java.util.Objects;
 
-@Controller
-@RequestMapping("sign_up")
 @Profile("dev")
+@Controller
 public class DevSignUpController {
 
     @Autowired
     SignUpService signUpService;
 
-    @GetMapping
+    @GetMapping("/sign_up")
     public String getSignUpPage(Model model) {
         model.addAttribute("regForm", new RegistrationForm());
         return "sign_up";
     }
 
-    @PostMapping
+    @PostMapping("/sign_up")
     public String fakeSignUpUser(@Valid @ModelAttribute("regForm") RegistrationForm form,
                                  BindingResult bindingResult,
                                  Model model) {
@@ -49,7 +48,7 @@ public class DevSignUpController {
         }
     }
 
-    @GetMapping("success")
+    @GetMapping("/sign_up/success")
     public String getSuccessPage() {
         return "dev_success_sign_up";
     }
