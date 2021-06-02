@@ -27,4 +27,6 @@ public class User {
     @Enumerated(value = EnumType.STRING)
     private Role role;
 
+    private Long redisId;
+
 }

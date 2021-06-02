@@ -1,4 +1,4 @@
-package ru.itis.javalab.web.controllers.rest;
+package ru.itis.javalab.web.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;

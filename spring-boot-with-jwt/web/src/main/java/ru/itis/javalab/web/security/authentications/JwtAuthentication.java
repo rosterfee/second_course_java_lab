@@ -1,6 +1,7 @@
-package ru.itis.javalab.web.security.jwt;
+package ru.itis.javalab.web.security.authentications;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
 import ru.itis.javalab.web.security.details.UserDetailsImpl;
@@ -8,15 +9,12 @@ import ru.itis.javalab.web.security.details.UserDetailsImpl;
 import java.util.Collection;
 
 @Data
+@NoArgsConstructor
 public class JwtAuthentication implements Authentication {
 
     private UserDetailsImpl userDetails;
     private boolean isAuthenticated;
-    private String email;
-
-    public JwtAuthentication(String email) {
-        this.email = email;
-    }
+    private String name;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
@@ -36,7 +34,7 @@ public class JwtAuthentication implements Authentication {
     @Override
     public Object getPrincipal() {
         if (userDetails != null) {
-            return userDetails.getUser();
+            return userDetails.getUserDto();
         } else return null;
     }
 
@@ -52,6 +50,6 @@ public class JwtAuthentication implements Authentication {
 
     @Override
     public String getName() {
-        return email;
+        return name;
     }
 }

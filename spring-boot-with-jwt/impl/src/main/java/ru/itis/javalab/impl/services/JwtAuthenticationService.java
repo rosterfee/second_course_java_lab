@@ -3,15 +3,12 @@ package ru.itis.javalab.impl.services;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 import ru.itis.javalab.api.dtos.JwtTokens;
 import ru.itis.javalab.api.dtos.UserDto;
 import ru.itis.javalab.impl.entities.RefreshToken;
 import ru.itis.javalab.impl.repositories.RefreshTokenRepository;
-import ru.itis.javalab.impl.repositories.UsersRepository;
 
 import java.util.Date;
 import java.util.UUID;
@@ -24,6 +21,9 @@ public class JwtAuthenticationService {
 
     @Autowired
     private RefreshTokenRepository refreshTokenRepository;
+
+    @Autowired
+    private RedisJwtUserService redisJwtService;
 
     public JwtTokens createTokens(UserDto userDto) {
 
@@ -40,6 +40,7 @@ public class JwtAuthenticationService {
                 .withIssuedAt(now)
                 .withExpiresAt(accessTokeExpiredAt)
                 .sign(Algorithm.HMAC256("damir_habirovich"));
+        redisJwtService.addTokenToUser(accessToken, userDto);
 
         RefreshToken refreshToken = RefreshToken.builder()
                 .uuid(UUID.randomUUID().toString())

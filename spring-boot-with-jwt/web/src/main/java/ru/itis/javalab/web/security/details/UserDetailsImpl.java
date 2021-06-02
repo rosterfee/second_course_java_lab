@@ -1,18 +1,13 @@
 package ru.itis.javalab.web.security.details;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 import org.modelmapper.ModelMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.stereotype.Component;
 import ru.itis.javalab.api.dtos.UserDto;
 import ru.itis.javalab.impl.entities.User;
 
-import javax.jws.WebParam;
 import java.util.Collection;
 import java.util.Collections;
 

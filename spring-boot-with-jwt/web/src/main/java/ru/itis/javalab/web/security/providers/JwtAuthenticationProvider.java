@@ -1,5 +1,9 @@
-package ru.itis.javalab.web.security.jwt;
+package ru.itis.javalab.web.security.providers;
 
+import com.auth0.jwt.JWT;
+import com.auth0.jwt.JWTVerifier;
+import com.auth0.jwt.algorithms.Algorithm;
+import com.auth0.jwt.interfaces.DecodedJWT;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.security.authentication.AuthenticationProvider;
@@ -7,6 +11,8 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Component;
+import ru.itis.javalab.impl.entities.User;
+import ru.itis.javalab.web.security.authentications.JwtAuthentication;
 import ru.itis.javalab.web.security.details.UserDetailsImpl;
 
 @Component
@@ -26,11 +32,7 @@ public class JwtAuthenticationProvider implements AuthenticationProvider {
 
         JwtAuthentication jwtAuthentication = (JwtAuthentication) authentication;
         jwtAuthentication.setAuthenticated(true);
-        System.out.println(authentication.getName());
-        UserDetailsImpl userDetails = (UserDetailsImpl) userDetailsService
-                .loadUserByUsername(authentication.getName());
-        jwtAuthentication.setUserDetails(userDetails);
-        System.out.println(jwtAuthentication.getDetails());
+
         return jwtAuthentication;
     }
 
