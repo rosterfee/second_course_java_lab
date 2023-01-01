@@ -1,9 +1,11 @@
 package ru.itis.javalab.aop;
 
 import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
+import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import ru.itis.javalab.redis.RedisService;
@@ -23,7 +25,10 @@ public class MethodsStatisticsAspect {
 
         StringBuilder method = new StringBuilder("public ");
 
-        method.append(joinPoint.getTarget().getClass().getName()).append(" ");
+        Signature signature =  joinPoint.getSignature();
+        Class<?> returnType = ((MethodSignature) signature).getReturnType();
+        method.append(returnType.getName()).append(" ");
+
         method.append(joinPoint.getSignature().getName()).append(" ");
 
         Object[] args = joinPoint.getArgs();
